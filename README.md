@@ -6,11 +6,20 @@
 Open your terminal and run the following command to clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/new-expense.git
-
-
+git clone https://github.com/your-username/expense-sharing-app.git
+cd expense-sharing-app
 ```
+### install the dependencies
+```bash
+npm install
 ```
+### run the server 
+```
+npm run start 
+npm run dev
+```
+## file system diagram
+```java
 /new-expense
 ├── /controllers
 │   ├── expenseController.js  # Logic for handling expenses
@@ -136,7 +145,7 @@ This API allows users to manage their expenses effectively. Users can register, 
 
 
 ### Download Balance Sheet
-- **URL:** `/api/balance/download/:userId`
+- **URL:** `/api/download/:userId`
 - **Method:** `GET`
 - **Description:** This endpoint allows users to download their balance sheet.(excel)
 - **Parameters:**
