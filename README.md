@@ -18,6 +18,7 @@ npm install
 npm run start 
 npm run dev
 ```
+app will start running  at http://localhost:5000/api
 ## file system diagram
 ```java
 /new-expense
