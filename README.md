@@ -18,7 +18,8 @@ npm install
 npm run start 
 npm run dev
 ```
-app will start running  at http://localhost:5000/api
+app will start running  at http://localhost:5000/api \
+set up the env file 
 ## file system diagram
 ```java
 /new-expense
